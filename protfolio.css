@@ -307,9 +307,13 @@ p{
     animation-name: html;
 }
 @keyframes html{
-    to{
-        width: 70%;
+    50%{
+        width: 40%;
         background-color: red;
+    }
+    100%{
+        width: 90%;
+        background-color: aquamarine;
     }
 }
 
@@ -317,9 +321,13 @@ p{
     animation-name: css;
 }
 @keyframes css{
-    to{
-        width: 90%;
+    50%{
+        width: 40%;
         background-color: red;
+    }  
+    100%{
+        width: 70%;
+        background-color:aquamarine;
     }
 }
 
@@ -328,7 +336,7 @@ p{
 }
 @keyframes java{
     to{
-        width: 50%;
+        width: 40%;
         background-color: red;
     }
 }
@@ -337,9 +345,13 @@ p{
     animation-name: js;
 }
 @keyframes js{
-    to{
-        width: 80%;
+    50%{
+        width: 40%;
         background-color: red;
+    }
+    100%{
+        width: 80%;
+        background-color:aquamarine;
     }
 }
 
@@ -347,9 +359,13 @@ p{
     animation-name: boot;
 }
 @keyframes boot{
-    to{
-        width: 75%;
+    50%{
+        width: 40%;
         background-color: red;
+    }
+    100%{
+        width: 75%;
+        background-color:aquamarine;
     }
 }
 
@@ -357,9 +373,13 @@ p{
     animation-name: Pythone;
 }
 @keyframes Pythone{
-    to{
-        width: 65%;
+    50%{
+        width: 40%;
         background-color: red;
+    }
+    100%{
+        width: 65%;
+        background-color:aquamarine;
     }
 }
 
@@ -367,9 +387,13 @@ p{
     animation-name: c;
 }
 @keyframes c{
-    to{
-        width: 70%;
+    50%{
+        width: 40%;
         background-color: red;
+    }
+    100%{
+        width: 70%;
+        background-color:aquamarine;
     }
 }
 
